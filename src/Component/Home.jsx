@@ -6,7 +6,7 @@ import bgImage from '../assets/Images/Getting a haircut.jpg';
 const Home = () => {
   return (
     <div style={{backgroundImage:`url(${bgImage})`}}
-    className='bg-center bg-cover h-screen'>
+    className='bg-center bg-cover h-screen filter brightness-90'>
         <Navbar/>
         <HeroSection/>
     </div>
