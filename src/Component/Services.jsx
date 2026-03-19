@@ -1,5 +1,9 @@
 import React from "react";
 import logs from "../assets/Images/barber_script_logo_F.svg";
+import beardShaving from "../assets/Images/Vintage_Barbershop_Crossed_Hands___Royalty-Free_Vector___VectorStock-removebg-preview.png";
+import haircutImage from "../assets/Images/download__2_-removebg-preview.png";
+import hairColouring from "../assets/Images/Hair_Coloring_Hairbrush_Hair_Care_PNG-removebg-preview.png";
+import accessories from "../assets/Images/Hair_Stylist_Tools_Logo_SVG__PNG__Hairdressing_Monogram_Frame__Barber_Shop__Beauty_Business__T-Shirt_Design__Cut_File__Instant_Download-removebg-preview.png";
 
 const Services = () => {
   return (
@@ -16,7 +20,11 @@ const Services = () => {
         </div>
       </div>
       <div className="grid grid-cols-4 gap-4 pt-6">
-        <div className="p-4 bg-[#2C2C2C] rounded-md">
+        <div className=" bg-[#2C2C2C] rounded-md">
+          <img
+            src={haircutImage}
+            className="[filter:invert(72%)_sepia(75%)_saturate(300%)_hue-rotate(5deg)] w-25"
+          />
           <h1 className="text-xl font-bold">HAIRCUTS</h1>
           <p className="w-72 flex word-wrap ">
             Sharp Cuts, Clean Finish From classic fades to modern styles, our
@@ -26,6 +34,11 @@ const Services = () => {
           </p>
         </div>
         <div className="p-4 bg-[#2C2C2C] rounded-md">
+          <img
+            src={beardShaving}
+            alt="haircutImage"
+            className="[filter:invert(72%)_sepia(75%)_saturate(700%)_hue-rotate(5deg)] w-25"
+          />
           <h1 className="text-xl font-bold">BEARD SHAVING</h1>
           <p className="w-72 flex word-wrap">
             The Perfect Shave, Every Time Whether you prefer a clean shave or a
@@ -35,6 +48,11 @@ const Services = () => {
           </p>
         </div>
         <div className="p-4 bg-[#2C2C2C] rounded-md">
+          <img
+            src={hairColouring}
+            alt="Hair colouring image"
+            className="[filter:invert(72%)_sepia(75%)_saturate(700%)_hue-rotate(5deg)] w-25"
+          />
           <h1 className="text-xl font-bold">HAIR COLOURING</h1>
           <p className="w-72 flex word-wrap">
             Bold Colour, Flawless Results From subtle highlights to full
@@ -44,6 +62,11 @@ const Services = () => {
           </p>
         </div>
         <div className="p-4 bg-[#2C2C2C] rounded-md">
+          <img
+            src={accessories}
+            alt="Accwssoriesn_image "
+            className="[filter:invert(72%)_sepia(75%)_saturate(700%)_hue-rotate(5deg)] w-25"
+          />
           <h1 className="text-xl font-bold">ACCESSORIES</h1>
           <p>
             Everything a Gentleman Needs Complete your grooming routine with our
