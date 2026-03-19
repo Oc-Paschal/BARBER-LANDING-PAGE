@@ -12,7 +12,7 @@ const Services = () => {
         <div className="flex items-center justify-center">
           <img src={logs} alt="logs image" className="w-60 " />
         </div>
-        <div className="flex items-center justify-center  ">
+        <div className="flex items-center justify-center text-xl font-medium ">
           <p>WE'RE A PERFECT GENTLEMEN'S CHOICE</p>
         </div>
         <div className="flex items-center justify-center text-2xl font-bold">
@@ -21,12 +21,13 @@ const Services = () => {
       </div>
       <div className="grid grid-cols-4 gap-4 pt-6">
         <div className=" bg-[#2C2C2C] rounded-md">
+          <div className="flex items-center justify-center">
           <img
             src={haircutImage}
-            className="[filter:invert(72%)_sepia(75%)_saturate(300%)_hue-rotate(5deg)] w-25"
-          />
-          <h1 className="text-xl font-bold">HAIRCUTS</h1>
-          <p className="w-72 flex word-wrap ">
+            className="[filter:invert(72%)_sepia(75%)_saturate(280%)_hue-rotate(5deg)] w-25"
+          /></div>
+          <h1 className=" flex items-center justify-center text-xl font-bold">HAIRCUTS</h1>
+          <p className="break-keep">
             Sharp Cuts, Clean Finish From classic fades to modern styles, our
             barbers deliver precision cuts that suit your face shape and
             personality. Every visit leaves you looking sharp, confident, and
@@ -34,12 +35,13 @@ const Services = () => {
           </p>
         </div>
         <div className="p-4 bg-[#2C2C2C] rounded-md">
+          <div className="flex items-center justify-center">
           <img
             src={beardShaving}
             alt="haircutImage"
             className="[filter:invert(72%)_sepia(75%)_saturate(700%)_hue-rotate(5deg)] w-25"
-          />
-          <h1 className="text-xl font-bold">BEARD SHAVING</h1>
+          /></div>
+          <h1 className=" flex items-center justify-center text-xl font-bold">BEARD SHAVING</h1>
           <p className="w-72 flex word-wrap">
             The Perfect Shave, Every Time Whether you prefer a clean shave or a
             well-defined beard, our barbers use the finest tools and techniques
@@ -48,12 +50,13 @@ const Services = () => {
           </p>
         </div>
         <div className="p-4 bg-[#2C2C2C] rounded-md">
+          <div className="flex items-center justify-center">
           <img
             src={hairColouring}
             alt="Hair colouring image"
-            className="[filter:invert(72%)_sepia(75%)_saturate(700%)_hue-rotate(5deg)] w-25"
-          />
-          <h1 className="text-xl font-bold">HAIR COLOURING</h1>
+            className="[filter:invert(72%)_sepia(75%)_saturate(700%)_hue-rotate(5deg)] w-40"
+          /></div>
+          <h1 className=" flex items-center justify-center text-xl font-bold">HAIR COLOURING</h1>
           <p className="w-72 flex word-wrap">
             Bold Colour, Flawless Results From subtle highlights to full
             transformations, our expert colourists bring your vision to life. We
@@ -62,12 +65,13 @@ const Services = () => {
           </p>
         </div>
         <div className="p-4 bg-[#2C2C2C] rounded-md">
+          <div className="flex items-center justify-center">
           <img
             src={accessories}
             alt="Accwssoriesn_image "
             className="[filter:invert(72%)_sepia(75%)_saturate(700%)_hue-rotate(5deg)] w-25"
-          />
-          <h1 className="text-xl font-bold">ACCESSORIES</h1>
+          /></div>
+          <h1 className=" flex items-center justify-center text-xl font-bold">ACCESSORIES</h1>
           <p>
             Everything a Gentleman Needs Complete your grooming routine with our
             carefully curated range of premium barbershop accessories. From
