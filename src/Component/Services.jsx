@@ -7,7 +7,7 @@ import accessories from "../assets/Images/Hair_Stylist_Tools_Logo_SVG__PNG__Hair
 
 const Services = () => {
   return (
-    <div className="bg-black h-screen text-white">
+    <div className=" text-white">
       <div>
         <div className="flex items-center justify-center">
           <img src={logs} alt="logs image" className="w-60 " />

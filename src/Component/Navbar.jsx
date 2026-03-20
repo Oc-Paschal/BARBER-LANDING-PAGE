@@ -16,6 +16,9 @@ const Navbar = () => {
           Services
         </a>
         <a href="#" className="hover:text-yellow-500">
+          Feature
+        </a>
+        <a href="#" className="hover:text-yellow-500">
           Gallery
         </a>
         <a href="#" className="hover:text-yellow-500">
