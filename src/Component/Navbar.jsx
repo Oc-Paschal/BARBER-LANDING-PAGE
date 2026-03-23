@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Images/barber_logo_yellow.png";
+import logo from "../../public/images/barber_logo_yellow.png";
 
 const Navbar = () => {
   return (
@@ -27,7 +27,7 @@ const Navbar = () => {
        
       </nav>
       <div>
-         <a href="#" className="hover: bg-yellow-600 p-3 w-20 rounded-md hover:bg-yellow-500 cursor-pointer">
+         <a href="#" className="bg-yellow-600 p-3 w-20 rounded-md hover:bg-yellow-500 cursor-pointer">
           Contact Us
         </a>
 

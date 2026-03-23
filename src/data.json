@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "HAIRCUTS",
+      "description": "Sharp Cuts, Clean Finish. From classic fades to modern styles, our barbers deliver precision cuts that suit your face shape and personality. Every visit leaves you looking sharp, confident, and ready to take on the world.",
+      "images": " /images/download__2_-removebg-preview.png "
+    },
+    {
+      "id": 2,
+      "title": "BEARD SHAVING",
+      "description": "The Perfect Shave, Every Time. Whether you prefer a clean shave or a well-defined beard, our barbers use the finest tools and techniques  to shape, trim, and sculpt your facial hair to absolute perfection.   A true gentleman's experience.",
+      "images": "/images/Vintage_Barbershop_Crossed_Hands___Royalty-Free_Vector___VectorStock-removebg-preview.png"
+    },
+    {
+      "id": 3,
+      "title": "HAIR COLOURING",
+      "description": "Bold Colour, Flawless Results. From subtle highlights to full transformations, our expert colourists bring your vision to life.  We  use premium products that protect your hair while delivering rich, long-lasting colour that commands attention.",
+      "images": "/images/Hair_Coloring_Hairbrush_Hair_Care_PNG-removebg-preview.png"
+    },
+    {
+      "id": 4,
+      "title": "ACCESSORIES",
+      "description": "Everything a Gentleman Needs. Complete your grooming routine with our carefully curated range of premium barbershop accessories. From  quality razors and combs to styling products, we stock everything you need to maintain your look at home.",
+      "images": "/images/Hair_Stylist_Tools_Logo_SVG__PNG__Hairdressing_Monogram_Frame__Barber_Shop__Beauty_Business__T-Shirt_Design__Cut_File__Instant_Download-removebg-preview.png"
+    }
+  ],
+
+  "features": {
+    "tagline": "Where Style Meets Precision",
+    "title": "Experience the Finest Haircuts in Town",
+    "description": "Step into a world where every cut is crafted with precision and care. Our experienced barbers are dedicated to delivering a grooming experience that goes beyond the ordinary. We listen, we advise, and we execute, giving you a look that reflects your personality and style.",
+    "buttonText": "Book an Appointment",
+    "rightImage": "/images/download (3).jpg",
+    "leftImage": "/images/download (5).jpg"
+  },
+
+  "gallery": [
+    { "id": 1, "image": "/images/download (3).jpg", "alt": "haircut 1" },
+    { "id": 2, "image": "/images/download (4).jpg", "alt": "haircut 2" },
+    { "id": 2, "image": "/images/download (5).jpg", "alt": "haircut 3" },
+    { "id": 2, "image": "/images/20+ Stunning Black Men Haircuts You Will Love.jpg", "alt": "haircut 4" },
+    { "id": 2, "image": "/images/25 Idées de dégradés pour homme noir.jpg", "alt": "haircut 5" },
+    { "id": 2, "image": "/images/60 Fascinating Fade Haircuts on Handsome Black Men! - Coils and Glory.jpg", "alt": "haircut 6" },
+    { "id": 2, "image": "/images/download (7).jpg", "alt": "haircut 7" },
+    { "id": 2, "image": "/images/Fade Haircut.jpg", "alt": "haircut 8" },
+    { "id": 2, "image": "images/Simple & Easy Haircut Design Ideas For Men", "alt": "haircut 9" },
+    { "id": 2, "image": "images/Taper Fade That Defines Modern Style 💇_♂️🔥.jpg", "alt": "haircut 10" },
+    { "id": 2, "image": "/Images/Waves with Sharp Line-Up.jpg", "alt": "haircut 11" }
+    
+  ]
+}

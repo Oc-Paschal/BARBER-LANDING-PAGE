@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import HeroSection from './HeroSection';
-import bgImage from '../assets/Images/Getting a haircut.jpg';
+import bgImage from '../../public/images/Getting a haircut.jpg';
 
 const Home = () => {
   return (
