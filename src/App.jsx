@@ -3,6 +3,7 @@ import Home from './Component/Home';
 import Services from './Component/Services';
 import Feature from './Component/Feature';
 import Gallery from './Component/Gallery';
+import FAQ from './Component/FAQ';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Services/>
       <Feature/>
       <Gallery/>
+      <FAQ/>
 
     </div>
   )

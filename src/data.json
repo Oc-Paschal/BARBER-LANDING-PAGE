@@ -44,9 +44,33 @@
     { "id": 2, "image": "/images/60 Fascinating Fade Haircuts on Handsome Black Men! - Coils and Glory.jpg", "alt": "haircut 6" },
     { "id": 2, "image": "/images/download (7).jpg", "alt": "haircut 7" },
     { "id": 2, "image": "/images/Fade Haircut.jpg", "alt": "haircut 8" },
-    { "id": 2, "image": "images/Simple & Easy Haircut Design Ideas For Men", "alt": "haircut 9" },
-    { "id": 2, "image": "images/Taper Fade That Defines Modern Style 💇_♂️🔥.jpg", "alt": "haircut 10" },
-    { "id": 2, "image": "/Images/Waves with Sharp Line-Up.jpg", "alt": "haircut 11" }
+    { "id": 2, "image": "/images/Simple & Easy Haircut Design Ideas For Men.jpg", "alt": "haircut 9" },
+    { "id": 2, "image": "/images/Taper Fade That Defines Modern Style 💇_♂️🔥.jpg", "alt": "haircut 10" },
+    { "id": 2, "image": "/images/Waves with Sharp Line-Up.jpg", "alt": "haircut 11" }
     
+  ],
+
+
+  "faq": [
+    {
+      "id": 1,
+      "question": "How do I book an appointment?",
+      "answer": "You can book an appointment by clicking the 'Book an Appointment' button on our website or by calling us directly."
+    },
+    {
+      "id": 2,
+      "question": "How long does a haircut take?",
+      "answer": "A standard haircut takes about 30–45 minutes depending on the style. Beard grooming and colouring may take longer."
+    },
+    {
+      "id": 3,
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes we do! However we recommend booking in advance to avoid waiting times, especially on weekends."
+    },
+    {
+      "id": 4,
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, debit cards, and all major credit cards."
+    }
   ]
 }
