@@ -72,5 +72,48 @@
       "question": "What payment methods do you accept?",
       "answer": "We accept cash, debit cards, and all major credit cards."
     }
+  ],
+
+  "pricing": [
+    {
+      "id": 1,
+      "title": "Basic Cut",
+      "price": "15",
+      "duration": "30 mins",
+      "features": [
+        "Haircut",
+        "Hot Towel",
+        "Hair Wash"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Premium Cut",
+      "price": "25",
+      "duration": "45 mins",
+      "popular": true,
+      "features": [
+        "Haircut",
+        "Beard Trim",
+        "Hot Towel",
+        "Hair Wash",
+        "Styling"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "VIP Package",
+      "price": "45",
+      "duration": "90 mins",
+      "features": [
+        "Haircut",
+        "Full Beard Grooming",
+        "Hair Colouring",
+        "Hot Towel",
+        "Hair Wash",
+        "Styling",
+        "Complimentary Drink"
+      ]
+    }
   ]
 }

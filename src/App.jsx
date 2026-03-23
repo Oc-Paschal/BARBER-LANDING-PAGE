@@ -4,7 +4,7 @@ import Services from './Component/Services';
 import Feature from './Component/Feature';
 import Gallery from './Component/Gallery';
 import FAQ from './Component/FAQ';
-
+import Pricing from './Component/Pricing';
 const App = () => {
   return (
     <div className='bg-black'>
@@ -13,6 +13,7 @@ const App = () => {
       <Feature/>
       <Gallery/>
       <FAQ/>
+      <Pricing/>
 
     </div>
   )
