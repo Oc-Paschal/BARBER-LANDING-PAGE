@@ -4,7 +4,7 @@ import logs from "../../public/images/barber_script_logo_F.svg";
 
 const Services = () => {
   return (
-    <div className="bg-black h-screen text-white">
+    <div id="Services" className="bg-black h-screen text-white">
       <div>
         <div className="flex items-center justify-center ">
           <img src={logs} alt="logs image" className="w-60 " />

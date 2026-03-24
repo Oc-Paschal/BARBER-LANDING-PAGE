@@ -17,7 +17,7 @@ const Gallery = () => {
   const hiddenImages = data.gallery.slice(4);
  
   return (
-    <div className="bg-black min-h-screen p-5">
+    <div id="Gallery" className="bg-black min-h-screen p-5">
       <div className="text-center mb-8">
         <p className="text-[#D4A017] text-sm font-medium tracking-widest uppercase">
           Our Work

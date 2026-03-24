@@ -9,19 +9,19 @@ const Navbar = () => {
         <h1 className="text-3xl font-serif font-semibold text-yellow-500">FERGS</h1>
       </div>
       <nav className="space-x-6 hidden md:block font-medium">
-        <a href="#" className="hover:text-yellow-500">
+        <a href="Home" className="hover:text-yellow-500">
           Home
         </a>
-        <a href="#" className="hover:text-yellow-500">
+        <a href="#Services" className="hover:text-yellow-500">
           Services
         </a>
-        <a href="#" className="hover:text-yellow-500">
+        <a href="#Feature" className="hover:text-yellow-500">
           Feature
         </a>
-        <a href="#" className="hover:text-yellow-500">
+        <a href="#Gallery" className="hover:text-yellow-500">
           Gallery
         </a>
-        <a href="#" className="hover:text-yellow-500">
+        <a href="#Testimonials" className="hover:text-yellow-500">
           Testimonials
         </a>
        
