@@ -11,13 +11,13 @@ const Gallery = () => {
   const imgClass =
     "w-full h-full object-cover object-top cursor-pointer hover:scale-105 transition-transform duration-300";
  
-  // first 4 images
+  
   const visibleImages = data.gallery.slice(0, 4);
-  // remaining 7 images
+  
   const hiddenImages = data.gallery.slice(4);
  
   return (
-    <div id="Gallery" className="bg-black min-h-screen p-5">
+    <div id="Gallery" className="bg-black h-full p-5">
       <div className="text-center mb-8">
         <p className="text-[#D4A017] text-sm font-medium tracking-widest uppercase">
           Our Work
@@ -25,7 +25,7 @@ const Gallery = () => {
         <h1 className="text-white text-3xl font-bold mt-1">THE GALLERY</h1>
       </div>
  
-      {/* First Bento Grid — first 4 images */}
+     
       <div
         className="gap-3"
         style={{

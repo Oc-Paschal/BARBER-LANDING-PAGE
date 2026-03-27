@@ -3,7 +3,7 @@ import data from "../data.json";
 
 const Pricing = () => {
   return (
-    <div id="Pricing" className="bg-black text-white py-16 px-6">
+    <div id="Pricing" className="bg-black text-white sm:py-6 md:py-16 px-6">
       <div className="text-center mb-10">
         <p className="text-[#D4A017] text-sm tracking-widest uppercase">
           Our Prices
@@ -13,7 +13,7 @@ const Pricing = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <div className="grid sm:grid-rows-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {data.pricing.map((plan) => (
           <div
             key={plan.id}

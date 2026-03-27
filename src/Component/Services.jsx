@@ -4,7 +4,7 @@ import logs from "../../public/images/barber_script_logo_F.svg";
 
 const Services = () => {
   return (
-    <div id="Services" className="bg-black h-screen text-white">
+    <div id="Services" className="bg-black h-screen text-white sm:px-2 md:px-1">
       <div>
         <div className="flex items-center justify-center ">
           <img src={logs} alt="logs image" className="w-60 " />
@@ -16,7 +16,7 @@ const Services = () => {
           <h1>YOU LOOK GREAT, HOW WE MAKE IT PERFECT</h1>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-4 pt-6">
+      <div className="grid sm:grid-rows-1 md:grid-cols-4 gap-4 pt-6">
         {data.services.map((service) => (
           <div key={service.id} className="p-4 bg-[#2C2C2C] rounded-md">
             <img

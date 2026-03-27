@@ -9,7 +9,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-black text-white py-16 px-6">
+    <div className="bg-black text-white sm:py-1 md:py-16 px-6">
       <div className="text-center mb-10">
         <p className="text-[#D4A017] text-sm tracking-widest uppercase">
           Got Questions?
