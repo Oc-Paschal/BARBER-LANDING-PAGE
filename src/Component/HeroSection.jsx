@@ -12,7 +12,7 @@ const HeroSection = () => {
          <span className="text-yellow-500"> Premium grooming </span>experience in the heart of Lagos
         </p>
         <div className="flex items-center justify-center p-3">
-        <button className=" flex text-center bg-yellow-600 p-3 rounded-sm hover:bg-yellow-500 cursor-pointer">Book Appointment</button></div>
+        <button id="#Contact" className=" flex text-center bg-yellow-600 p-3 rounded-sm hover:bg-yellow-500 cursor-pointer">Book Appointment</button></div>
       </div>
     </div>
   );

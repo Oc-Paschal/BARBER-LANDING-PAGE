@@ -27,7 +27,7 @@ const Navbar = () => {
        
       </nav>
       <div>
-         <a href="#" className="bg-yellow-600 p-3 w-20 rounded-md hover:bg-yellow-500 cursor-pointer">
+         <a href="#Contact" className="bg-yellow-600 p-3 w-20 rounded-md hover:bg-yellow-500 cursor-pointer">
           Contact Us
         </a>
 

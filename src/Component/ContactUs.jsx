@@ -20,7 +20,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div id="Contact" className="bg-black min-h-screen text-white px-4 py-16">
+    <div id="Contact" className="bg-black text-white px-4 py-16">
       {/* Header */}
       <div className="text-center mb-12">
         <p className="text-yellow-500 text-lg font-semibold uppercase tracking-widest">
