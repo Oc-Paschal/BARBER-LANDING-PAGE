@@ -7,6 +7,7 @@ import FAQ from './Component/FAQ';
 import Pricing from './Component/Pricing';
 import Testimonials from './Component/Testimonial';
 import Footer from './Component/Footer';
+import ContactUs from './Component/ContactUs';
 const App = () => {
   return (
     <div className='bg-black'>
@@ -17,6 +18,7 @@ const App = () => {
       <FAQ/>
       <Pricing/>
       <Testimonials/>
+      <ContactUs/>
      
       <Footer/>
 
