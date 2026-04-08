@@ -3,7 +3,7 @@ import logo from "../../public/images/barber_logo_yellow.png";
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between items-center border-b border-gray-800 text-white pt-2 pr-2">
+    <header className="  flex justify-between items-center border-b border-gray-800 text-white pt-2 pr-2">
       <div className="flex">
         <img src={logo} alt="Website Logo" className="w-20" />
         <h1 className="text-3xl font-serif font-semibold text-yellow-500">FERGS</h1>

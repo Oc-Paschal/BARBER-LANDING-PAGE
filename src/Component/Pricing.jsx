@@ -3,7 +3,7 @@ import data from "../data.json";
 
 const Pricing = () => {
   return (
-    <div id="Pricing" className="bg-black text-white sm:py-6 md:py-16 px-6">
+    <div id="Pricing" className="bg-black text-white sm:py-6 pt-5  md:py-16 px-6">
       <div className="text-center mb-10">
         <p className="text-[#D4A017] text-sm tracking-widest uppercase">
           Our Prices

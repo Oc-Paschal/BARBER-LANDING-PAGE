@@ -6,7 +6,7 @@ const Feature = () => {
   const { tagline, title, description, buttonText, rightImage, leftImage } = data.features;
 
   return (
-    <div className="text-white h-full flex items-center justify-center bg-[#2C2C2C] gap-10 pt-6">
+    <div className="text-white flex items-center justify-center bg-[#2C2C2C] gap-10 pt-6">
       <div>
         <img src={rightImage} alt="Feature Image" className="w-70 rounded-md" />
       </div>
