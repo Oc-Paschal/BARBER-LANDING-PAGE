@@ -63,7 +63,7 @@ const Footer = () => {
           <h2 className="text-[#D4A017] text-sm font-bold tracking-widest uppercase mt-2">
             Follow Us
           </h2>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row lg:flex-row gap-4">
             {socials.map((social) => (
               <a
                 key={social.id}
