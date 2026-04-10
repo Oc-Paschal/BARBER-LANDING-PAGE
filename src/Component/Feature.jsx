@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import data from "../data.json";
 
 const Feature = () => {
@@ -6,21 +7,38 @@ const Feature = () => {
     data.features;
 
   return (
-    <section className="bg-[#2C2C2C] text-white my-9 px-4 md:px-10 py-10">
-      
+    <motion.section
+      className="bg-[#2C2C2C] text-white my-9 px-4 md:px-10 py-12"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+    >
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-10">
-        
+
         {/* Left Image */}
-        <div className="w-full md:w-1/3 flex justify-center">
+        <motion.div
+          initial={{ x: -60, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="w-full md:w-1/3 flex justify-center"
+        >
           <img
             src={rightImage}
             alt="Feature"
             className="w-full max-w-xs md:max-w-sm rounded-md object-cover"
           />
-        </div>
+        </motion.div>
 
         {/* Text Content */}
-        <div className="w-full md:w-1/3 text-center md:text-left space-y-4">
+        <motion.div
+          initial={{ y: 40, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          viewport={{ once: true }}
+          className="w-full md:w-1/3 text-center md:text-left space-y-4"
+        >
           <p className="text-lg font-semibold">{tagline}</p>
 
           <h1 className="text-2xl md:text-3xl font-bold leading-tight">
@@ -31,22 +49,32 @@ const Feature = () => {
             {description}
           </p>
 
-          <button className="bg-yellow-600 hover:bg-yellow-500 px-6 py-3 rounded-md cursor-pointer transition">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-yellow-600 hover:bg-yellow-500 px-6 py-3 rounded-md cursor-pointer transition"
+          >
             {buttonText}
-          </button>
-        </div>
+          </motion.button>
+        </motion.div>
 
         {/* Right Image */}
-        <div className="w-full md:w-1/3 flex justify-center">
+        <motion.div
+          initial={{ x: 60, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="w-full md:w-1/3 flex justify-center"
+        >
           <img
             src={leftImage}
             alt="Feature"
             className="w-full max-w-xs md:max-w-sm rounded-md object-cover"
           />
-        </div>
+        </motion.div>
 
       </div>
-    </section>
+    </motion.section>
   );
 };
 
