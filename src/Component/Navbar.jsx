@@ -1,37 +1,64 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../public/images/barber_logo_yellow.png";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <header className="  flex justify-between items-center border-b border-gray-800 text-white pt-2 pr-2">
-      <div className="flex">
-        <img src={logo} alt="Website Logo" className="w-20" />
-        <h1 className="text-3xl font-serif font-semibold text-yellow-500">FERGS</h1>
+    <header className="flex justify-between items-center border-b border-gray-800 text-white px-4 md:px-10 py-3 relative">
+      
+      {/* Logo */}
+      <div className="flex items-center space-x-2">
+        <img src={logo} alt="Website Logo" className="w-12 md:w-16" />
+        <h1 className="text-xl md:text-3xl font-serif font-semibold text-yellow-500">
+          FERGS
+        </h1>
       </div>
-      <nav className="space-x-6 hidden md:block font-medium">
-        <a href="Home" className="hover:text-yellow-500">
-          Home
-        </a>
-        <a href="#Services" className="hover:text-yellow-500">
-          Services
-        </a>
-        <a href="#Feature" className="hover:text-yellow-500">
-          Feature
-        </a>
-        <a href="#Gallery" className="hover:text-yellow-500">
-          Gallery
-        </a>
-        <a href="#Testimonials" className="hover:text-yellow-500">
-          Testimonials
-        </a>
-       
+
+      {/* Desktop Nav */}
+      <nav className="hidden md:flex space-x-6 font-medium">
+        <a href="#Home" className="hover:text-yellow-500">Home</a>
+        <a href="#Services" className="hover:text-yellow-500">Services</a>
+        <a href="#Feature" className="hover:text-yellow-500">Feature</a>
+        <a href="#Gallery" className="hover:text-yellow-500">Gallery</a>
+        <a href="#Testimonials" className="hover:text-yellow-500">Testimonials</a>
       </nav>
-      <div>
-         <a href="#Contact" className="bg-yellow-600 p-3 w-20 rounded-md hover:bg-yellow-500 cursor-pointer">
+
+      {/* Desktop Button */}
+      <div className="hidden md:block">
+        <a
+          href="#Contact"
+          className="bg-yellow-600 px-4 py-2 rounded-md hover:bg-yellow-500 transition"
+        >
           Contact Us
         </a>
-
       </div>
+
+      {/* Hamburger */}
+      <div className="md:hidden">
+        <button onClick={() => setIsOpen(!isOpen)}>
+          <span className="text-2xl">☰</span>
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="absolute top-full left-0 w-full bg-black border-t border-gray-800 flex flex-col items-center space-y-4 py-6 md:hidden">
+          <a href="#Home" onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#Services" onClick={() => setIsOpen(false)}>Services</a>
+          <a href="#Feature" onClick={() => setIsOpen(false)}>Feature</a>
+          <a href="#Gallery" onClick={() => setIsOpen(false)}>Gallery</a>
+          <a href="#Testimonials" onClick={() => setIsOpen(false)}>Testimonials</a>
+          
+          <a
+            href="#Contact"
+            className="bg-yellow-600 px-6 py-2 rounded-md hover:bg-yellow-500"
+            onClick={() => setIsOpen(false)}
+          >
+            Contact Us
+          </a>
+        </div>
+      )}
     </header>
   );
 };

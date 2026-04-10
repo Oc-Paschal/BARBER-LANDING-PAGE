@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {motion} from "framer-motion";
 import data from "../data.json";
 
 const Faq = () => {
@@ -9,7 +10,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-black text-white sm:py-5 md:py-16 px-6">
+    <motion.div className="bg-black text-white sm:py-5 md:py-16 px-6">
       <div className="text-center mb-10">
         <p className="text-[#D4A017] text-sm tracking-widest uppercase">
           Got Questions?
@@ -41,7 +42,7 @@ const Faq = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
