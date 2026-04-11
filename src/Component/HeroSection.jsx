@@ -9,7 +9,7 @@ const HeroSection = () => {
       transition={{ duration: 0.6 }}
       className="min-h-screen flex items-center justify-center text-white px-4 md:px-10"
     >
-      <div className="max-w-3xl text-center space-y-4 md:space-y-6">
+      <div className="max-w-3xl text-center space-y-3 md:space-y-4">
         <p className="font-bold text-xl md:text-3xl">
           Clean Cuts. <span className="text-yellow-500">Fresh Looks</span>
         </p>

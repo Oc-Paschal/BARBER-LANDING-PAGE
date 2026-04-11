@@ -10,7 +10,7 @@ import Footer from './Component/Footer';
 import ContactUs from './Component/ContactUs';
 const App = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black  overflow-x-hidden w-full'>
       <Home/>
       <Services/>
       <Feature/>

@@ -22,12 +22,12 @@ const Feature = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="w-full md:w-1/3 flex justify-center"
+          className="w-[300px]  flex justify-center"
         >
           <img
             src={rightImage}
             alt="Feature"
-            className="w-full max-w-xs md:max-w-sm rounded-md object-cover"
+            className="w-[300px] rounded-md object-cover"
           />
         </motion.div>
 
@@ -37,7 +37,7 @@ const Feature = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
-          className="w-full md:w-1/3 text-center md:text-left space-y-4"
+          className="w-full md:w-1/3 text-center space-y-4"
         >
           <p className="text-lg font-semibold">{tagline}</p>
 
@@ -69,7 +69,7 @@ const Feature = () => {
           <img
             src={leftImage}
             alt="Feature"
-            className="w-full max-w-xs md:max-w-sm rounded-md object-cover"
+            className="w-[300px] rounded-md object-cover"
           />
         </motion.div>
 
