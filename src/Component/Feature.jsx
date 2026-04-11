@@ -49,13 +49,14 @@ const Feature = () => {
             {description}
           </p>
 
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-yellow-600 hover:bg-yellow-500 px-6 py-3 rounded-md cursor-pointer transition"
-          >
-            {buttonText}
-          </motion.button>
+          <motion.a
+  href="#Contact"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="bg-yellow-600 hover:bg-yellow-500 px-6 py-3 rounded-md cursor-pointer transition inline-block"
+>
+  {buttonText}
+</motion.a>
         </motion.div>
 
         {/* Right Image */}

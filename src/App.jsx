@@ -8,9 +8,12 @@ import Pricing from './Component/Pricing';
 import Testimonials from './Component/Testimonial';
 import Footer from './Component/Footer';
 import ContactUs from './Component/ContactUs';
+import Navbar from './Component/Navbar';
+
 const App = () => {
   return (
-    <div className='bg-black  overflow-x-hidden w-full'>
+    <div className='bg-black overflow-x-hidden w-full'>
+      <Navbar />
       <Home/>
       <Services/>
       <Feature/>
@@ -19,9 +22,7 @@ const App = () => {
       <Pricing/>
       <Testimonials/>
       <ContactUs/>
-     
       <Footer/>
-
     </div>
   )
 }
