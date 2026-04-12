@@ -8,13 +8,14 @@ const Feature = () => {
 
   return (
     <motion.section
+      id="Feature"
       className="bg-[#2C2C2C] text-white my-9 px-4 md:px-10 py-12"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-10">
+      <div className="  flex flex-col md:flex-row items-center justify-center gap-8 md:gap-10">
 
         {/* Left Image */}
         <motion.div
